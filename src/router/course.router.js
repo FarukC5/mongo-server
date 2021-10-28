@@ -1,5 +1,4 @@
 import express from "express";
-//import get from "mongoose";
 import ctrl from "../controllers/courses.controller";
 
 const router = express.Router();
