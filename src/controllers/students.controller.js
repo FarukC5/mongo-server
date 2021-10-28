@@ -1,7 +1,6 @@
 import _ from "lodash";
 import Student from "../models/student.model";
 
-// kreiranje novog studenta
 const create = (req, res) => {
   const student = Student(req.body);
   student.save((err, data) => {
@@ -57,7 +56,7 @@ const remove = (req, res) => {
       if (err) {
         return res.status(400).json(err.message);
       }
-      res.status(200).json("Student deleted");
+      res.status(200).json("Student deleted.");
     });
   });
 };
