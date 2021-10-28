@@ -15,7 +15,8 @@ Installed tools:
 Packages used for building and functionality:
     express: 4.17.1,
     body-parser: 1.19.0,
-    helmet: 4.6.0",
+    cors: 2.8.5,
+    helmet: 4.6.0,
     lodash: 4.17.21,
     mongoose: 6.0.12,
     babel-core: 6.26.3,
